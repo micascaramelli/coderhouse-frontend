@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  color: inherit;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+:root {
+  --beige: #f4f1de;
+  --salmon: #e07a5f;
+  --dark-grey: rgba(61, 64, 91, 0.9);
+  --green: #81b29a;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--beige);
+  color: var(--dark-grey);
+}
+
+h1 {
+  font-size: 2.25rem;
+  letter-spacing: 0.3rem;
+}
+
+/* Header */
+.logo {
+  width: 125px;
+  margin: 20px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--dark-grey);
+}
+
+nav {
+  width: 100%;
+}
+
+main {
+  min-height: calc(100vh - 300px);
+  padding: 16px;
+}
+
+@media (min-width: 768px) {
+  main {
+    padding: 32px;
+  }
+}
+
+/* Menu */
+nav > ul {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-evenly;
+  padding-top: 30px;
+  padding-left: 40px;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  nav > ul {
+    flex-direction: row;
+  }
+}
+
+/* Menu item */
+nav > ul > li {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.menu-item {
+  justify-content: center;
+  font-size: 1.25rem;
+  color: var(--beige);
+  font-weight: 400;
+  padding-left: 20px;
+}
+
+.menu-item:hover {
+  font-weight: bold;
+}
+
+.menu-item-active {
+  color: var(--salmon);
+}
+
+/* Footer */
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 2px solid #81b29a;
+  height: 200px;
+  background-color: var(--dark-grey);
+  color: white;
+  padding: 40px;
+  margin-top: 20px;
+}
+
+footer > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+footer > ul > li {
+  padding-right: 40px;
+}
+
+footer > ul > li > a > img {
+  width: 50px;
+}
+
+.media {
+  transition: all 0.5s ease;
+}
+.media:hover {
+  transform: rotate(360deg);
+}
+
+.footer-links {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.8rem;
+  padding-top: 30px;
+  color: var(--beige);
+}
+
+.footer-links:first-child {
+  margin-right: 30px;
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--beige);
+  font-size: 0.8rem;
+  padding: 15px;
+}

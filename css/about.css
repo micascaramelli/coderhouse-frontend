@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-content: space-evenly;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 15px;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+    margin: 20px;
+}
+.author-picture {
+  display: flex;
+  max-width: 100%;
+  width: 600px;
+  height: auto;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  padding: 5px;
+  
+}
+
+.description{
+    width: 800px;
+    line-height: 25px;
+    text-align: justify;
+}

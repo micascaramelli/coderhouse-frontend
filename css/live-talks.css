@@ -1,0 +1,45 @@
+h1{
+    padding: 25px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.text{
+    padding: 10px;
+    align-content: center;
+    text-align: justify;
+}
+
+.emphasized-text{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+/* table, th, td{
+    
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-spacing: 0.5rem;
+} */
+
+table{
+    display: flex;
+    justify-content: center;
+    border-collapse: collapse;
+    padding: 25px;
+
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 0.5rem;
+    text-align: left;
+
+}
+.link{
+    text-decoration: underline;
+}
+
+.link:hover{
+    font-weight: 510;
+    ;
+}
