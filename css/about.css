@@ -7,12 +7,11 @@
   padding: 15px;
 }
 
-h1{
-    text-align: center;
-    text-transform: uppercase;
-    padding: 20px;
-    margin: 20px;
+.title {
+  padding: 20px;
+  margin: 20px;
 }
+
 .author-picture {
   display: flex;
   max-width: 100%;
@@ -21,11 +20,10 @@ h1{
   border: 1px solid #ddd;
   border-radius: 20px;
   padding: 5px;
-  
 }
 
-.description{
-    width: 800px;
-    line-height: 25px;
-    text-align: justify;
+.description {
+  width: 800px;
+  line-height: 25px;
+  text-align: justify;
 }
