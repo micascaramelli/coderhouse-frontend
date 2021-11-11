@@ -1,6 +1,6 @@
 .container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-content: space-evenly;
   align-items: center;
   justify-content: space-evenly;
@@ -23,7 +23,14 @@
 }
 
 .description {
-  width: 800px;
+  padding: 15px;
+  width: 100%;
   line-height: 25px;
   text-align: justify;
+}
+
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row;
+  }
 }
