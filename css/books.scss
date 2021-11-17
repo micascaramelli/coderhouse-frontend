@@ -1,0 +1,36 @@
+.title{
+    padding: 25px;
+}
+.quote{
+    font-style: italic;
+    font-size: larger;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.book-title{
+    padding: 40px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+    text-align: center;
+
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.bookcover{
+    border-radius: 10px;
+    transform: perspective(125px) rotateY(3deg);
+    transition: 500ms;
+}
+.bookcover:hover{
+    transform: rotateY(0deg);
+	opacity: 1;
+}

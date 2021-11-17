@@ -1,12 +1,12 @@
 /* Se aplico BEM en las siguientes tres declaraciones */
+
 .container__title {
   padding: 25px;
 }
 
 .container__text {
   padding: 10px;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  align-content: center;
   text-align: justify;
 }
 
@@ -16,12 +16,8 @@
 }
 
 table {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   border-collapse: collapse;
   padding: 25px;
 }
@@ -33,4 +29,3 @@ table {
 .link:hover {
   font-weight: 510;
 }
-/*# sourceMappingURL=live-talks.css.map */

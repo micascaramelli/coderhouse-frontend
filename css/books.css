@@ -1,36 +1,51 @@
-.title{
-    padding: 25px;
-}
-.quote{
-    font-style: italic;
-    font-size: larger;
-    text-align: center;
-    padding-top: 20px;
+.title {
+  padding: 25px;
 }
 
-.book-title{
-    padding: 40px;
-    font-size: 1.3rem;
-    font-weight: 700;
-    letter-spacing: 0.3rem;
-    text-align: center;
-
+.quote {
+  font-style: italic;
+  font-size: larger;
+  text-align: center;
+  padding-top: 20px;
 }
 
-.flex-container{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
+.book-title {
+  padding: 40px;
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: 0.3rem;
+  text-align: center;
 }
 
-.bookcover{
-    border-radius: 10px;
-    transform: perspective(125px) rotateY(3deg);
-    transition: 500ms;
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
-.bookcover:hover{
-    transform: rotateY(0deg);
-	opacity: 1;
+
+.bookcover {
+  border-radius: 10px;
+  -webkit-transform: perspective(125px) rotateY(3deg);
+          transform: perspective(125px) rotateY(3deg);
+  -webkit-transition: 500ms;
+  transition: 500ms;
 }
+
+.bookcover:hover {
+  -webkit-transform: rotateY(0deg);
+          transform: rotateY(0deg);
+  opacity: 1;
+}
+/*# sourceMappingURL=books.css.map */
