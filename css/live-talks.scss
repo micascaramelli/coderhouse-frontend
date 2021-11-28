@@ -1,3 +1,6 @@
+.live-container{
+  ;
+}
 /* Se aplico BEM en las siguientes tres declaraciones */
 
 .container__title {
@@ -22,10 +25,10 @@ table {
   padding: 25px;
 }
 
-.link {
+.live-link {
   text-decoration: underline;
 }
 
-.link:hover {
+.live-link:hover {
   font-weight: 510;
 }
