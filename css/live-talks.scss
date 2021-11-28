@@ -1,6 +1,11 @@
-.live-container{
-  ;
+.live-container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
+
 /* Se aplico BEM en las siguientes tres declaraciones */
 
 .container__title {
@@ -8,7 +13,6 @@
 }
 
 .container__text {
-  padding: 10px;
   align-content: center;
   text-align: justify;
 }
